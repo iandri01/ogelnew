@@ -179,7 +179,14 @@ section { padding: 72px 32px; }
 /* ═══ DANA / RENCANA ═══ */
 .dana { background: var(--sage-dark); color: var(--white); }
 .dana .section-title span { color: var(--yellow); }
-.dana-hero-number { text-align: center; background: rgba(255,255,255,0.1); border-radius: 16px; padding: 24px; margin-bottom: 32px; }
+.dana-hero-number { 
+  text-align: center; 
+  background: rgba(255, 221, 87, 0.22); 
+  border-radius: 16px; 
+  padding: 24px; 
+  margin-bottom: 32px; 
+  backdrop-filter: blur(4px);
+}
 .dana-amount { display: block; font-family: 'Playfair Display', serif; font-size: 36px; font-weight: 700; color: var(--yellow); }
 .dana-label { font-size: 14px; opacity: 0.85; margin-top: 6px; display: block; }
 .stages { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
