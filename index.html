@@ -183,7 +183,12 @@ section { padding: 72px 32px; }
 .dana-amount { display: block; font-family: 'Playfair Display', serif; font-size: 36px; font-weight: 700; color: var(--yellow); }
 .dana-label { font-size: 14px; opacity: 0.85; margin-top: 6px; display: block; }
 .stages { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
-.stage-card { background: rgba(255,255,255,0.1); border-radius: 12px; padding: 24px; }
+..stage-card { 
+  background: rgba(245, 200, 66, 0.18); 
+  border-radius: 12px; 
+  padding: 24px; 
+  backdrop-filter: blur(4px);
+}
 .stage-num { font-family: 'Playfair Display', serif; font-size: 36px; font-weight: 700; color: var(--yellow); opacity: 0.6; line-height: 1; margin-bottom: 8px; }
 .stage-title { font-size: 16px; font-weight: 700; margin-bottom: 6px; }
 .stage-price { font-family: 'Playfair Display', serif; font-size: 22px; font-weight: 700; color: var(--yellow); margin-bottom: 16px; }
